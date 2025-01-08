@@ -29,6 +29,9 @@ bash
 Copy code
 git clone https://github.com/your-username/weather-data-collector.git  
 cd weather-data-collector  
+also creatig  the venv for python 
+python3 -m venv venv
+ source venv/bin/activate
 2. Install Dependencies
 Ensure Python 3.x is installed. Then:
 
