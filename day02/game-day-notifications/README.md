@@ -1,10 +1,25 @@
-
-
 # NBA Game Day Notifications / Sports Alerts System  
 
 ## Project Overview  
 This project is a cloud-based notification system designed to send real-time NBA game day score updates to subscribed users via SMS or email. It integrates **Amazon SNS**, **AWS Lambda**, **Amazon EventBridge**, and the **NBA APIs** to deliver accurate and timely game information to sports enthusiasts.  
 
+## 📸 Screenshot
+
+Here is a screenshot of the Event-Driven Architecture in action:
+
+![Event-Driven Architecture Screenshot](screenshot.png)
+
+---
+## Project Structure 
+--- 
+```
+game-day-notifications/  
+├── src/  
+│   ├── game_day_notification.py # Main Lambda function code  
+├── policies/  
+├── .gitignore  
+└── README.md ## project documenation
+```
 ### Key Contributions  
 As part of this project, I:  
 1. **Integrated NBA API:** Implemented functionality to fetch live NBA scores using the SportsData.io API.  
@@ -36,19 +51,6 @@ As part of this project, I:
 
 ---
 
-## Project Structure  
-```
-game-day-notifications/  
-├── src/  
-│   ├── game_day_notification.py          # Main Lambda function code  
-├── policies/  
-├── .gitignore  
-└── README.md ## project documenation  
--------.env  
-```  
-
----
-
 ## Setup Instructions  
 **Follow the detailed steps in the original project documentation to:**  
 - Set up SNS topics and subscriptions.  
@@ -62,14 +64,3 @@ game-day-notifications/
 - Implementing secure infrastructure with IAM policies.  
 - Automating workflows with Amazon EventBridge.  
 - Leveraging external APIs to enrich cloud workflows.  
-
----
-
-## Future Enhancements  
-- Add notifications for other sports leagues (e.g., NFL).  
-- Personalize alerts by storing user preferences (teams, game types) in DynamoDB.  
-- Develop a web UI for user interaction and subscription management.  
-
----
-
-This README reflects both the project objectives and your significant contributions to its development. Let me know if you’d like further refinements! 😊

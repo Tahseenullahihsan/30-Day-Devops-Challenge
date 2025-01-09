@@ -1,6 +1,3 @@
-Sure! Here's the updated markdown code with the link to the OpenWeather API Key section added:
-
-```markdown
 # Weather Data Collection System 🌤️
 
 **Day 1 Project of the 30-Days DevOps Challenge**
